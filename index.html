@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nouran Abouelella | Legal Professional</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&family=Exo+2:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Animated Background - Fancy Particle Network -->
+    <div class="background-container">
+        <!-- Interactive Particle Canvas -->
+        <canvas id="particleCanvas"></canvas>
+        
+        <!-- Ambient Glow Orbs -->
+        <div class="ambient-glow">
+            <div class="glow-orb glow-1"></div>
+            <div class="glow-orb glow-2"></div>
+            <div class="glow-orb glow-3"></div>
+        </div>
+        
+        <!-- Floating Grid -->
+        <div class="floating-grid"></div>
+        
+        <!-- Scan Lines Effect -->
+        <div class="scanlines"></div>
+        
+        <!-- Vignette Overlay -->
+        <div class="vignette"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-logo">
+            <span class="logo-text">N<span class="dot">.</span>A</span>
+        </div>
+        <div class="nav-links">
+            <a href="#home" class="nav-link active" data-text="HOME">HOME</a>
+            <a href="#about" class="nav-link" data-text="ABOUT">ABOUT</a>
+            <a href="#experience" class="nav-link" data-text="EXPERIENCE">EXPERIENCE</a>
+            <a href="#education" class="nav-link" data-text="EDUCATION">EDUCATION</a>
+            <a href="#activities" class="nav-link" data-text="ACTIVITIES">ACTIVITIES</a>
+            <a href="#contact" class="nav-link" data-text="CONTACT">CONTACT</a>
+        </div>
+        <a href="Nouran ABOULELA .pdf" download class="nav-cv-btn">
+            <span>DOWNLOAD CV</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                <polyline points="7 10 12 15 17 10"/>
+                <line x1="12" y1="15" x2="12" y2="3"/>
+            </svg>
+        </a>
+        <div class="nav-hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <a href="#home" class="mobile-link">HOME</a>
+        <a href="#about" class="mobile-link">ABOUT</a>
+        <a href="#experience" class="mobile-link">EXPERIENCE</a>
+        <a href="#education" class="mobile-link">EDUCATION</a>
+        <a href="#activities" class="mobile-link">ACTIVITIES</a>
+        <a href="#contact" class="mobile-link">CONTACT</a>
+        <a href="Nouran ABOULELA .pdf" download class="mobile-cv-btn">DOWNLOAD CV</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-image-container">
+                <div class="image-frame">
+                    <div class="corner corner-tl"></div>
+                    <div class="corner corner-tr"></div>
+                    <div class="corner corner-bl"></div>
+                    <div class="corner corner-br"></div>
+                    <img src="nourane_profile_pic.jpg" alt="Nouran Abouelella" class="hero-image">
+                    <div class="image-glitch"></div>
+                </div>
+            </div>
+            <div class="hero-text">
+                <div class="hero-subtitle">
+                    <span class="line"></span>
+                    <span class="subtitle-text">LEGAL PROFESSIONAL</span>
+                    <span class="line"></span>
+                </div>
+                <h1 class="hero-name">
+                    <span class="name-line">NOURAN</span>
+                    <span class="name-line accent">ABOUELELLA</span>
+                </h1>
+                <p class="hero-description">
+                    <span class="typing-text">Contract Administrator at Siemens Mobility Egypt</span>
+                </p>
+                <div class="hero-tags">
+                    <span class="tag">International Business Law</span>
+                    <span class="tag">Contract Management</span>
+                    <span class="tag">Legal Research</span>
+                </div>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary">
+                        <span class="btn-text">GET IN TOUCH</span>
+                        <span class="btn-icon">→</span>
+                    </a>
+                    <a href="#experience" class="btn btn-secondary">
+                        <span class="btn-text">VIEW EXPERIENCE</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>SCROLL DOWN</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="section-header">
+            <span class="section-number">01</span>
+            <h2 class="section-title">ABOUT ME</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <p class="about-intro">
+                    A dedicated legal professional with a passion for international business law, 
+                    currently pursuing a Master's degree in International Business Law at the 
+                    prestigious École de Droit de la Sorbonne in Cairo.
+                </p>
+                <p class="about-detail">
+                    With experience at leading organizations like Siemens Mobility Egypt and 
+                    top-tier law firm Matouk Bassiouny & Hennawy, I bring a unique blend of 
+                    academic excellence and practical expertise.
+                </p>
+                <div class="about-stats">
+                    <div class="stat">
+                        <span class="stat-number">15.44</span>
+                        <span class="stat-label">GPA Average</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">4</span>
+                        <span class="stat-label">Languages</span>
+                    </div>
+                </div>
+            </div>
+            <div class="expertise-grid">
+                <h3 class="grid-title">LEGAL EXPERTISE</h3>
+                <div class="expertise-item">
+                    <div class="expertise-icon">01</div>
+                    <div class="expertise-info">
+                        <h4>Contract Management</h4>
+                        <p>Drafting, reviewing & negotiating agreements</p>
+                    </div>
+                </div>
+                <div class="expertise-item">
+                    <div class="expertise-icon">02</div>
+                    <div class="expertise-info">
+                        <h4>International Business Law</h4>
+                        <p>Cross-border transactions & compliance</p>
+                    </div>
+                </div>
+                <div class="expertise-item">
+                    <div class="expertise-icon">03</div>
+                    <div class="expertise-info">
+                        <h4>Legal Research</h4>
+                        <p>Case analysis & legal documentation</p>
+                    </div>
+                </div>
+                <div class="expertise-item">
+                    <div class="expertise-icon">04</div>
+                    <div class="expertise-info">
+                        <h4>Litigation</h4>
+                        <p>State Council</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience">
+        <div class="section-header">
+            <span class="section-number">02</span>
+            <h2 class="section-title">PROFESSIONAL EXPERIENCE</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-marker">
+                    <div class="marker-dot"></div>
+                    <div class="marker-line"></div>
+                </div>
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <span class="timeline-date">July 2025 - Present</span>
+                        <span class="timeline-status current">CURRENT</span>
+                    </div>
+                    <h3 class="timeline-title">Contract Administrator</h3>
+                    <h4 class="timeline-company">Siemens Mobility Egypt</h4>
+                    <p class="timeline-description">
+                        Selected among a large number of candidates for a summer internship, 
+                        which was extended into an employment contract. Responsible for drafting 
+                        and reviewing agreements and negotiations with clients and subcontractors.
+                    </p>
+                    <div class="timeline-tags">
+                        <span class="timeline-tag">Contract Drafting</span>
+                        <span class="timeline-tag">Negotiations</span>
+                        <span class="timeline-tag">Client Relations</span>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-marker">
+                    <div class="marker-dot"></div>
+                    <div class="marker-line"></div>
+                </div>
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <span class="timeline-date">July 2024</span>
+                    </div>
+                    <h3 class="timeline-title">Legal Intern</h3>
+                    <h4 class="timeline-company">Matouk Bassiouny & Hennawy Law Firm</h4>
+                    <p class="timeline-description">
+                        Acquired practical skills in administrative litigation through case 
+                        preparation and procedure monitoring before the Egyptian Council of State.
+                    </p>
+                    <div class="timeline-tags">
+                        <span class="timeline-tag">Administrative Law</span>
+                        <span class="timeline-tag">Litigation</span>
+                        <span class="timeline-tag">Legal Research</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section education">
+        <div class="section-header">
+            <span class="section-number">03</span>
+            <h2 class="section-title">EDUCATION</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="education-grid">
+            <div class="edu-card main-edu">
+                <div class="edu-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M12 14l9-5-9-5-9 5 9 5z"/>
+                        <path d="M12 14l6.16-3.42a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/>
+                        <path d="M12 14v7"/>
+                    </svg>
+                </div>
+                <div class="edu-year">2025 - 2026</div>
+                <h3 class="edu-degree">Master 1 - International Business Law</h3>
+                <h4 class="edu-school">École de Droit de la Sorbonne au Caire - EDSC</h4>
+                <p class="edu-detail">Double Diploma: Université Paris 1 & Université du Caire</p>
+                <span class="edu-status in-progress">IN PROGRESS</span>
+            </div>
+            <div class="edu-card">
+                <div class="edu-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M12 14l9-5-9-5-9 5 9 5z"/>
+                        <path d="M12 14l6.16-3.42a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/>
+                    </svg>
+                </div>
+                <div class="edu-year">2022 - 2025</div>
+                <h3 class="edu-degree">Bachelor's Degree in Law</h3>
+                <h4 class="edu-school">École de Droit de la Sorbonne au Caire</h4>
+                <p class="edu-detail">GPA: 15.44/20 - With Honors (Mention Bien)</p>
+                <div class="edu-grades">
+                    <span class="grade">L1: 14.68</span>
+                    <span class="grade">L2: 16.44</span>
+                    <span class="grade">L3: 15.19</span>
+                </div>
+            </div>
+            <div class="edu-card">
+                <div class="edu-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M12 14l9-5-9-5-9 5 9 5z"/>
+                        <path d="M12 14l6.16-3.42a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/>
+                    </svg>
+                </div>
+                <div class="edu-year">2022 - 2026</div>
+                <h3 class="edu-degree">Bachelor's Degree in Law</h3>
+                <h4 class="edu-school">Cairo University</h4>
+                <span class="edu-status in-progress">IN PROGRESS</span>
+            </div>
+            <div class="edu-card">
+                <div class="edu-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0H5m14 0h2m-2 0h-2M5 21H3m2 0h2M9 7h6m-6 4h6m-6 4h6"/>
+                    </svg>
+                </div>
+                <div class="edu-year">2008 - 2022</div>
+                <h3 class="edu-degree">Egyptian Baccalaureate</h3>
+                <h4 class="edu-school">Lycée La Liberté Zamalek</h4>
+                <p class="edu-detail">Valedictorian - 83% - With High Honors (Mention Très Bien)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section id="activities" class="section activities">
+        <div class="section-header">
+            <span class="section-number">04</span>
+            <h2 class="section-title">ACTIVITIES & ACHIEVEMENTS</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="activities-container">
+            <div class="activity-category">
+                <h3 class="category-title">
+                    <span class="category-icon">01</span>
+                    Moot Court Competitions
+                </h3>
+                <div class="activity-items">
+                    <div class="activity-item">
+                        <span class="activity-year">2025/26</span>
+                        <div class="activity-info">
+                            <h4>Sports Arbitration Moot Court</h4>
+                            <p>Main Team Member - EDSC</p>
+                        </div>
+                    </div>
+                    <div class="activity-item">
+                        <span class="activity-year">2024/25</span>
+                        <div class="activity-info">
+                            <h4>Jessup Moot Court Competition</h4>
+                            <p>Main Team Member - EDSC</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="activity-category">
+                <h3 class="category-title">
+                    <span class="category-icon">02</span>
+                    Model Simulations
+                </h3>
+                <div class="activity-items">
+                    <div class="activity-item">
+                        <span class="activity-year">2024</span>
+                        <div class="activity-info">
+                            <h4>UNESCO Model (MUS)</h4>
+                            <p>Instructor</p>
+                        </div>
+                    </div>
+                    <div class="activity-item">
+                        <span class="activity-year">2023</span>
+                        <div class="activity-info">
+                            <h4>European Union Model (IMEU)</h4>
+                            <p>Delegate</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="activity-category">
+                <h3 class="category-title">
+                    <span class="category-icon">03</span>
+                    University Involvement
+                </h3>
+                <div class="activity-items">
+                    <div class="activity-item">
+                        <span class="activity-year">2025</span>
+                        <div class="activity-info">
+                            <h4>Academic Tutor</h4>
+                            <p>Guiding new students through legal methodologies</p>
+                        </div>
+                    </div>
+                    <div class="activity-item">
+                        <span class="activity-year">2024/25</span>
+                        <div class="activity-info">
+                            <h4>Legal Clinic of Sorbonne Cairo</h4>
+                            <p>Contributing to accessible legal research publications</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="activity-category">
+                <h3 class="category-title">
+                    <span class="category-icon">04</span>
+                    Legal Events
+                </h3>
+                <div class="activity-items">
+                    <div class="activity-item">
+                        <span class="activity-year">2025</span>
+                        <div class="activity-info">
+                            <h4>AI Conference - Cairo University</h4>
+                            <p>Conference on Artificial Intelligence</p>
+                        </div>
+                    </div>
+                    <div class="activity-item">
+                        <span class="activity-year">2024/25</span>
+                        <div class="activity-info">
+                            <h4>Law Day - 2nd & 3rd Editions</h4>
+                            <p>Journée du Droit</p>
+                        </div>
+                    </div>
+                    <div class="activity-item">
+                        <span class="activity-year">2024</span>
+                        <div class="activity-info">
+                            <h4>Intellectual Property Workshop</h4>
+                            <p>Atelier en Droit de la Propriété Intellectuelle</p>
+                        </div>
+                    </div>
+                    <div class="activity-item">
+                        <span class="activity-year">2024/25</span>
+                        <div class="activity-info">
+                            <h4>Competition Law Day - 1st & 2nd Editions</h4>
+                            <p>Journée du Droit de la Concurrence</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="achievements-highlight">
+                <div class="achievement-card">
+                    <div class="achievement-icon">I</div>
+                    <h4>Double National Champion</h4>
+                    <p>Taekwondo - Egypt 2017</p>
+                    <span class="achievement-badge">Best National Athlete</span>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">II</div>
+                    <h4>Lebaldna Charity</h4>
+                    <p>Volunteer Work</p>
+                    <span class="achievement-badge">Community Service</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="section-header">
+            <span class="section-number">05</span>
+            <h2 class="section-title">GET IN TOUCH</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3 class="contact-heading">Let's Connect</h3>
+                <p class="contact-text">
+                    Open to discussing opportunities in international business law, 
+                    contract management, and legal consulting.
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:nouranetareka@gmail.com" class="contact-link">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label">Email</span>
+                            <span class="contact-value">nouranetareka@gmail.com</span>
+                        </div>
+                    </a>
+                    <a href="tel:+201062269312" class="contact-link">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label">Phone</span>
+                            <span class="contact-value">+20 106 226 9312</span>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/nourane-tarek-aboulela-320a4b265/" target="_blank" class="contact-link">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/>
+                                <rect x="2" y="9" width="4" height="12"/>
+                                <circle cx="4" cy="4" r="2"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label">LinkedIn</span>
+                            <span class="contact-value">Nourane Tarek Aboulela</span>
+                        </div>
+                    </a>
+                    <div class="contact-link">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                <path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label">Location</span>
+                            <span class="contact-value">Dokki, Giza, Egypt</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-visual">
+                <div class="hexagon-grid">
+                    <div class="hex"></div>
+                    <div class="hex"></div>
+                    <div class="hex"></div>
+                    <div class="hex"></div>
+                    <div class="hex"></div>
+                    <div class="hex"></div>
+                    <div class="hex"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">N.A</div>
+            <p class="footer-text">© 2025 Nouran Abouelella. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="mailto:nouranetareka@gmail.com">Email</a>
+                <a href="https://www.linkedin.com/in/nourane-tarek-aboulela-320a4b265/" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+        <div class="footer-decoration">
+            <div class="circuit-line"></div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
