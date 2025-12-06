@@ -309,7 +309,7 @@ function initScrollAnimations() {
 function initTypingEffect() {
     const typingElement = document.querySelector('.typing-text');
     const texts = [
-        'Contract Manager at Siemens Mobility Egypt',
+        'Contract Administrator at Siemens Mobility Egypt',
         'International Business Law Specialist',
         'Legal Research & Analysis Expert',
         'Multilingual Legal Professional'
@@ -556,4 +556,5 @@ console.log('%c✨ Welcome to Nouran Aboulela\'s Portfolio',
     'font-size: 20px; font-weight: bold; color: #fff; background: #000; padding: 10px 20px;');
 console.log('%cBuilt with passion and precision', 
     'font-size: 12px; color: #888;');
+
 
